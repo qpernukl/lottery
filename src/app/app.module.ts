@@ -6,11 +6,13 @@ import { MaterialModule } from './material.module';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import { LotteryNumberComponent } from './lottery-number/lottery-number.component';
+import { LotteryTicketComponent } from './lottery-ticket/lottery-ticket.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LotteryNumberComponent
+    LotteryNumberComponent,
+    LotteryTicketComponent
   ],
   imports: [
     BrowserModule,
